@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: MATERIALS (& Manufacturing)
+description: Metal And Textile Exoskeletal Reinforcement Incorporating Aluminum & Leather Sheets
+img: assets/img/final_gauntlet.jpg
 importance: 1
-category: work
+category: courses
 related_publications: true
 ---
 
