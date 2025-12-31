@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 7
-description: with background image
+title: 3D Printing my Dawg
+description: and other artsy prints
 img: assets/img/4.jpg
 importance: 1
 category: others
