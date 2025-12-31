@@ -1,12 +1,16 @@
 ---
 layout: page
-title: project 8
-description: an other project with a background image and giscus comments
-img: assets/img/9.jpg
+title: Battlebots Weapon Design
+description: Hax et Lux -- CAD & Waterjet 
+img: assets/img/Battlebots/open_bot_closeup.jpg
 importance: 2
 category: others
-giscus_comments: true
+giscus_comments: false
 ---
+
+
+Optimal shape given bot constraints: A ring with its total mass as far away as possible from the axis of rotation to maximize the rotational moment of inertia. IT would take more work to spin up, but that's work well spent, ecause when it hits its opponent, that opponent has to do much more to slow it down.
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
