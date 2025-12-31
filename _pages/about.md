@@ -29,8 +29,11 @@ latest_posts:
 
 Hello hello! My name is Jakob, and I am a sophmore mechanical engineering student at Tufts University. 
 
+I'm interested in the intersection between science & engineering and the social issues we are facing today. 
+
 
 I'm also pursuing a minor in astrophysics.
+
 
 Outside of my classes, I'm an active member of the Tufts Robotics Club, in multiple ways: I'm the organization's treasurer, responsible for managing all things budget and spending related. But that doesn't mean I'm not a roboticist too! Last fall, I was on a team building a 3lb combat robot, and in the spring, we took that bot to compete at the National Havoc Robotics League in Norwalk, CT!
 In my free time I like to run, read, and gaze up at the stars.
