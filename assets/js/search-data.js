@@ -402,42 +402,63 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-truss-analysis",
-          title: 'Truss analysis',
-          description: "Design, analysis and construction of a statically determinate truss",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-functional-3d-prints",
-          title: 'Functional 3D Prints',
-          description: "it&#39;s not a dog, but...",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
+          section: "News",},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-3d-printing-my-dawg",
-          title: '3D Printing my Dawg',
-          description: "and other artsy prints",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
             },},{id: "projects-assessing-the-correlation-between-stellar-flares-and-spots",
           title: 'Assessing the correlation between stellar flares and spots',
           description: "Astrophysics Data Analysis",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/astrophysics/";
             },},{id: "projects-battlebots-weapon-design",
           title: 'Battlebots Weapon Design',
           description: "Hax et Lux -- CAD &amp; Waterjet",
           section: "Projects",handler: () => {
               window.location.href = "/projects/battlebots/";
+            },},{id: "projects-3d-printing-my-dawg",
+          title: '3D Printing my Dawg',
+          description: "and other artsy prints",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/decorative_prints/";
+            },},{id: "projects-functional-3d-prints",
+          title: 'Functional 3D Prints',
+          description: "it&#39;s not a dog, but...",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/functional_prints/";
             },},{id: "projects-m-a-t-e-r-i-a-l-s",
           title: 'M.A.T.E.R.I.A.L.S',
           description: "(short for Metal And Textile Exoskeletal Reinforcement Incorporating Aluminum &amp; Leather Sheets)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/materials_and_manufacturing/";
+            },},{id: "projects-truss-analysis",
+          title: 'Truss analysis',
+          description: "Design, analysis and construction of a statically determinate truss",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/truss_analysis/";
             },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/example_pdf.pdf", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%6A%61%6B%6F%62.%7A%61%70%61%6E%74%61@%74%75%66%74%73.%65%64%75", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/JakobZapanta", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
