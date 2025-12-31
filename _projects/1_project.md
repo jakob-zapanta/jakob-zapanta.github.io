@@ -1,10 +1,10 @@
 ---
 layout: page
-title: MATERIALS (& Manufacturing)
+title: M.A.T.E.R.I.A.L.S. (& Manufacturing)
 description: Metal And Textile Exoskeletal Reinforcement Incorporating Aluminum & Leather Sheets
 img: assets/img/final_gauntlet.jpg
 importance: 1
-category: courses
+category: coursework
 related_publications: true
 ---
 
