@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jakob-zapanta.github.iojakob-zapanta.github.io/sitemap.xml
+Sitemap: https://jakob-zapanta.github.io/sitemap.xml
