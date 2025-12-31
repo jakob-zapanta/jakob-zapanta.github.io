@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jakob-zapanta.github.io/sitemap.xml
