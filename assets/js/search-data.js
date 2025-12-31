@@ -402,26 +402,11 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-m-a-t-e-r-i-a-l-s-amp-manufacturing",
-          title: 'M.A.T.E.R.I.A.L.S. (&amp;amp; Manufacturing)',
-          description: "Metal And Textile Exoskeletal Reinforcement Incorporating Aluminum &amp; Leather Sheets",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-truss-design-construction-amp-analysis",
-          title: 'Truss design, construction, &amp;amp; analysis',
-          description: "",
+          section: "News",},{id: "projects-truss-analysis",
+          title: 'Truss analysis',
+          description: "Design, analysis and construction of a statically determinate truss",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
             },},{id: "projects-functional-3d-prints",
           title: 'Functional 3D Prints',
           description: "it&#39;s not a dog, but...",
@@ -447,6 +432,11 @@ ninja.data = [{
           description: "Astrophysics Data Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-m-a-t-e-r-i-a-l-s",
+          title: 'M.A.T.E.R.I.A.L.S',
+          description: "(short for Metal And Textile Exoskeletal Reinforcement Incorporating Aluminum &amp; Leather Sheets)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/materials_and_manufacturing/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
