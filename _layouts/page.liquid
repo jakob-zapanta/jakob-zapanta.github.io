@@ -18,6 +18,14 @@ layout: default
     {{ content }}
   </article>
 
+  {% if page.social and page.social.enabled %}
+    <div class="social">
+      <div class="contact-icons">{% include social.liquid %}</div>
+
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+  {% endif %}
+
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">

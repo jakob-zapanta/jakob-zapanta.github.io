@@ -7,6 +7,10 @@ nav: true
 nav_order: 3
 display_categories: [coursework, others]
 horizontal: false
+
+social:
+  enabled: true # includes a list of news items
+
 ---
 
 <!-- pages/projects.md -->
