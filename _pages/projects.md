@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: My ever-growing collection of cool projects
+description: Engineering, astrophysics, and 3D printing projects
 nav: true
 nav_order: 3
 display_categories: [coursework, others]
