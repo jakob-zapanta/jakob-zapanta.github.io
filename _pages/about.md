@@ -32,6 +32,7 @@ Hello hello! My name is Jakob, and I am a sophmore mechanical engineering studen
 I'm interested in the intersection between science & engineering and the social issues we are facing today. 
 
 
+Additionally, the scientist in me would kill me if I *only* did engineering, so to that end
 I'm also pursuing a minor in astrophysics.
 
 
