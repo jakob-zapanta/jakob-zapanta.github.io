@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Exploring the correlation between stellar flares and spots
+title: Assessing the correlation between stellar flares and spots
 description: Astrophysics Data Analysis
-img: assets/img/figure 30.jpg
+img: assets/img/Figure 30.png
 importance: 4
 category: coursework
 ---
@@ -13,9 +13,14 @@ Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
+<style>
+.responsive-wrap iframe{ max-width: 100%;}
+</style>
+<div class="responsive-wrap">
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5DcZi90fYTfQG1_hbKpJ2bf7fr_Cx9vpJKO_TsLAk5hxIf0_BhbRA8cqMCPaNzM1XlWtmEgqWktPn/pubembed?start=false&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-    ---
+</div>
+
+    
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
