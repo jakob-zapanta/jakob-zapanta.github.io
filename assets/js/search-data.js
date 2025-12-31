@@ -422,16 +422,16 @@ ninja.data = [{
           description: "and other artsy prints",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
             },},{id: "projects-assessing-the-correlation-between-stellar-flares-and-spots",
           title: 'Assessing the correlation between stellar flares and spots',
           description: "Astrophysics Data Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-battlebots-weapon-design",
+          title: 'Battlebots Weapon Design',
+          description: "Hax et Lux -- CAD &amp; Waterjet",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/battlebots/";
             },},{id: "projects-m-a-t-e-r-i-a-l-s",
           title: 'M.A.T.E.R.I.A.L.S',
           description: "(short for Metal And Textile Exoskeletal Reinforcement Incorporating Aluminum &amp; Leather Sheets)",
