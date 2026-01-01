@@ -1,17 +1,28 @@
 ---
 layout: page
 title: Assessing the correlation between stellar flares and spots
-description: Astrophysics Data Analysis
+description: Astrophysics Data Analysis-- python; juypter notebook
 img: assets/img/Figure 30.png
 importance: 4
 category: coursework
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Research goal:
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+citations {% cite petrucci2023TESS %}.
+
+## Methods:
+
+test text 333
+
+## Results:
+
+
+
+Final project for my astrophysics coding course
+
+## Here are the slides from the academic-style talk I gave on my work:
 
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
@@ -20,7 +31,15 @@ To give your project a background in the portfolio page, just add the img tag to
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5DcZi90fYTfQG1_hbKpJ2bf7fr_Cx9vpJKO_TsLAk5hxIf0_BhbRA8cqMCPaNzM1XlWtmEgqWktPn/pubembed?start=false&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
-    
+<!-- 
+<style>
+.responsive-wrap iframe{ max-width: 100%;}
+</style>
+<div class="jupyter-notebook-iframe-container">
+    <iframe path="_projects/Astro_code.ipynb" frameborder="0" width="960" height="569"></iframe>
+</div> 
+-->
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
