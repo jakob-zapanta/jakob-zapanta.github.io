@@ -1,11 +1,14 @@
 ---
-layout: page
+layout: post
 title: M.A.T.E.R.I.A.L.S
 description: (short for Metal And Textile Exoskeletal Reinforcement Incorporating Aluminum & Leather Sheets)
 img: assets/img/final_gauntlet.jpg
 importance: 1
 category: coursework
 related_publications: true
+images:
+  slider: true
+
 ---
 
 ## Manufacturing a gauntlet out of aluminum sheet metal
@@ -19,7 +22,30 @@ related_publications: true
     Final assembly of the gauntlet. (-- make this an image gallery)
 </div>
 
+## Initial design
 
+
+## Build Process
+
+
+## Troubleshooting
+
+broken waterjet, challenging rivet operations
+
+
+## Final Assembly
+
+<swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" space-between=30 Slides-per-view-auto="true" Grab-cursor="true" zoom="true">
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/final_gauntlet.jpg" class="img-fluid rounded zoomable z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet_underside.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet-fist.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet-open.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>
+    <video muted autoplay controls>
+        <video style="width:100%" src="/assets/video/video2.mp4" controls=""></video>
+    </video>
+  </swiper-slide>
+</swiper-container>
 
 
 <div class="row">
@@ -30,7 +56,7 @@ related_publications: true
         {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/moving-gauntlet-960x540-30fps.mp4" title="example image" class="video-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/video/video2.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
@@ -40,7 +66,7 @@ related_publications: true
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/moving-gauntlet-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        <video src="/assets/video/video2.mp4" class="img-fluid rounded z-depth-1" controls=true> </video>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" controls=true %}
