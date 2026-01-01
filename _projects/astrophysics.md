@@ -16,6 +16,9 @@ citations {% cite petrucci2023TESS %}.
 
 test text 333
 
+The heart of the data analyis was conducted using a resampling technique called bootstrapping, a core topic of the course and one that was utilized and detailed in research published by my professor, {% cite MartinDraconis2024 %}
+
+
 ## Results:
 
 
