@@ -34,6 +34,10 @@ Final project for my astrophysics coding course
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5DcZi90fYTfQG1_hbKpJ2bf7fr_Cx9vpJKO_TsLAk5hxIf0_BhbRA8cqMCPaNzM1XlWtmEgqWktPn/pubembed?start=false&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
+
+{::nomarkdown} {% assign jupyter_path = 'assets/jupyter/blog.ipynb' | relative_url %} {% capture notebook_exists %}{% file_exists assets/jupyter/blog.ipynb %}{% endcapture %} {% if notebook_exists == 'true' %} {% jupyter_notebook jupyter_path %} {% else %} <p>Sorry, the notebook you are looking for does not exist.</p> {% endif %} {:/nomarkdown}
+
+
 <!-- 
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
