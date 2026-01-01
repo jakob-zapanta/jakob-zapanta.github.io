@@ -409,7 +409,7 @@ ninja.data = [{
               window.location.href = "/projects/6_project/";
             },},{id: "projects-assessing-the-correlation-between-stellar-flares-and-spots",
           title: 'Assessing the correlation between stellar flares and spots',
-          description: "Astrophysics Data Analysis",
+          description: "Astrophysics Data Analysis-- python; juypter notebook",
           section: "Projects",handler: () => {
               window.location.href = "/projects/astrophysics/";
             },},{id: "projects-battlebots-weapon-design",
@@ -437,6 +437,11 @@ ninja.data = [{
           description: "Design, analysis and construction of a statically determinate truss",
           section: "Projects",handler: () => {
               window.location.href = "/projects/truss_analysis/";
+            },},{id: "projects-astro-code",
+          title: 'Astro_code',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Astro_code/";
             },},{
         id: 'social-cv',
         title: 'CV',
