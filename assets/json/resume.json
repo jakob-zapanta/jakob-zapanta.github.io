@@ -42,8 +42,8 @@
       "studyType": "BS",
       "startDate": "Sep-2024",
       "endDate": "May-2028",
-      "GPA": "3.42",
-      "courses": ["Theory of Relativity"]
+      "GPA": "3.52",
+      "courses": ["Mechanics Statics, Materials & Manufacturing, Astrophysics Laboratory, Physics 11, Physics 12, Seminar for Learning Assistants in STEM"]
     }
   ],
   "awards": [
@@ -60,9 +60,9 @@
       "icon": "fa-solid fa-computer",
       "keywords": [
         "Python",
+        "Markdown",
         "Jupyter Notebook",
         "LaTeX",
-        "Markdown",
         "Solidworks Design & FEA"
       ]
     }
@@ -81,15 +81,22 @@
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Engineering",
+      "icon": "fa-solid fa-cogs",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "3D Printing",
+        "Robotics",
+        "Engineering Design",
+        "Engineering Education"
+      ]
+    },
+    {
+      "name": "Astrophysics",
+      "icon": "fa-solid fa-star",
+      "keywords": [
+        "Exoplanet Detection",
+        "Stellar Behavior",
+        "Observational Astronomy"
       ]
     }
   ],
