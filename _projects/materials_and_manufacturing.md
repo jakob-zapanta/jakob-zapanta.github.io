@@ -55,10 +55,10 @@ The handplates were a bit simpler to make, as each plate only required the four 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gauntlet/hand_dykem.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/hand_dykem.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gauntlet/IMG_9914.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/IMG_9914.JPG" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -81,7 +81,7 @@ Finally, we wanted to create a vambrace (forearm armor) using a large sheet of a
 ## Final Assembly
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" space-between=30 Slides-per-view-auto="true" Grab-cursor="true" zoomable="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/final_gauntlet.jpg" class="img-fluid rounded zoomable z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/final_gauntlet.JPG" class="img-fluid rounded zoomable z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/gauntlet_underside.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/gauntlet-fist.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/gauntlet-open.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
@@ -134,7 +134,7 @@ The second major issue we ran into was that the waterjet in the machine shop bro
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gauntlet/assembly_line.jpg" title="assembly line" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/assembly_line.JPG" title="assembly line" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="caption">
         The impromptu assembly line, formed by the sudden need to cut out ~50 metal scales.
