@@ -2,7 +2,7 @@
 layout: page
 title: 3D Printing my Dawg
 description: and other artsy prints
-img: assets/img/4.jpg
+img: assets/img/lex_print_closeup.jpg
 importance: 1
 category: others
 related_publications: true

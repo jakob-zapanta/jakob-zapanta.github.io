@@ -2,7 +2,7 @@
 layout: page
 title: Functional 3D Prints
 description: it's not a dog, but...
-img: assets/img/1.jpg
+img: assets/img/candle_holder.jpg
 importance: 3
 category: others
 ---
