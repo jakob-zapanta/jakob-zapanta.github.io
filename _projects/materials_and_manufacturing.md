@@ -5,7 +5,7 @@ description: (short for Metal And Textile Exoskeletal Reinforcement Incorporatin
 img: assets/img/gauntlet/final_gauntlet.jpg
 importance: 1
 category: coursework
-related_publications: true
+# related_publications: true
 images:
   slider: true
 toc:
@@ -49,6 +49,17 @@ For some slightly higher-fidelity prototyping, we then used the waterjet to cut 
 
 We started with the knuckle plate, as it was a good center piece from which we could build everything out from. 
 We painted the cut out with a blue paint called dykem, which allowed us to easily incribe marking lines on it.
+We scribed lines indicating where to fold it to make it into a half-box shape, and where to bend it for the ridges.
+We also drilled relief holes in the "box's" corners to make those corners nicer.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/knucklebends.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Knuckleplate bending operation being performed on a 3-in-1 bender, using lines we inscribed in the dykem as guides.
+</div>
+
 
 ### Handplates
 The handplates were a bit simpler to make, as each plate only required the four ridges along the hand. However, these ridges needed to line up along the plates, so we had to be very precise when doing our bending. We used dykem for these too, and we taped them together, overlapping them the way we wwanted them to overlap in the final assembly, and traced out the lines for the bends needed to make the ridges.
@@ -65,16 +76,55 @@ The handplates were a bit simpler to make, as each plate only required the four 
     (Left) Lines to bnd inscribed in dykem on the handplates. (Right) Mock assembly of handplates to check alignment.
 </div>
 
-<br>
-
 
 ### Finger scales
+
+Initially, we planned to use a waterjet to cut these out, as there were quite a lot of them and they were all the same shape. However, the waterjet was out of order when we intended to do that, so we pivoted to cutting out all of the scales by hand using the sheet metal shears, and punching out holes for the rivets with a metal punch.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/scale_pile.JPG" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/hole_punch.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    (Left) Pile of hand-cut scales. (Right) Hole-punching operation for rivets.
+</div>
+
+
 
 ### Vambrace
 
 Finally, we wanted to create a vambrace (forearm armor) using a large sheet of aluminum metal. Given the course’s emphasis on making connections to materials in the real world, we thought it would be fitting to use a material we acquired from the real world. To that end, we used an old sign from our engineering building, which we realized was made from aluminum sheet metal and would go perfectly with the rest of the project. Similarly to the handplates, we used the jump shear to cut out a suitable piece of the sign, and made bends along its length to make it curve around the arm.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/ttc_sign.jpeg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/sign_in_vice.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Replaced by a newer sign and once destined for the trash, this sign from our engineering building has found a new life in our gauntlet.
+</div>
+
+
 ## Subsection assembly
+With all of our pieces created, we assembled them onto the glove, beginning with the hand and knuckle plates. We punched holes on the sides of these pieces and used rivets to fasten them together, using a spacer in each rivet operation to make sure the pieces weren’t pressed together and could stillmove freely. The next step was the fingers: We started by cutting out strips of leather for the fingers and riveting the finger scales to those strips. Our progress at this point can be seen below:
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/subassemblies2.jpeg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/subassemblies.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+
 
 <hr>
 
@@ -87,7 +137,7 @@ Finally, we wanted to create a vambrace (forearm armor) using a large sheet of a
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/gauntlet-open.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>
     <video muted autoplay controls>
-        <video style="width:100%" src="/assets/video/video2.mp4" controls=""></video>
+        {% include figure.liquid path="assets/video/video2.mp4" title="example image" class="img-fluid rounded z-depth-1" %}
     </video>
   </swiper-slide>
 </swiper-container>
@@ -100,7 +150,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
         {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/video/.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/video/video2.mp4" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -140,24 +190,3 @@ The second major issue we ran into was that the waterjet in the machine shop bro
         The impromptu assembly line, formed by the sudden need to cut out ~50 metal scales.
     </div>
 </div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
