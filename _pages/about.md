@@ -34,9 +34,11 @@ Additionally, the scientist in me would kill me if I *only* did engineering, so 
 I'm also pursuing a minor in astrophysics.
 
 
-Outside of my classes, I'm an active member of the Tufts Robotics Club, in multiple ways: I'm the organization's treasurer, responsible for managing all things budget and spending related. But that doesn't mean I'm not a roboticist too! Last fall, I was on a team building a 3lb combat robot, and in the spring, we took that bot to compete at the National Havoc Robotics League in Norwalk, CT!
-In my free time I like to run, read, and gaze up at the stars.
-I'm also a barista at The Sink, our student-run coffee shop on campus! 
+Outside of my classes, I'm an active member of the Tufts Robotics Club, in multiple ways: I'm the organization's treasurer, responsible for managing all things budget and spending related. But that doesn't mean I'm not a roboticist too! Last fall, I was on a team <a href="https://jakob-zapanta.github.io/projects/battlebots/">building a 3lb combat robot</a>, and in the spring, we took that bot to compete at the National Havoc Robotics League in Norwalk, CT!
+
+
+In my free time I like to go on long runs, read fantasy and sci-fi, and gaze up at the stars.
+I'm also a barista at The Sink, our student-run coffee shop on the Tufts campus! 
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
