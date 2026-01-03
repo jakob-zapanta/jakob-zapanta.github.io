@@ -62,5 +62,5 @@ This one was also modeled in Blender, and it was a lot harder to model and print
 
 <img-comparison-slider>
   {% include figure.liquid path="assets/img/3DPrints/Nightwing_reference.png" class="img-fluid rounded z-depth-1" slot="first" %}
-  {% include figure.liquid path="assets/img/3DPrints/night_wing_print.JPG" class="img-fluid rounded z-depth-1" slot="second" %}
+  {% include figure.liquid path="assets/img/3DPrints/dragon_print2.JPG" class="img-fluid rounded z-depth-1" slot="second" %}
 </img-comparison-slider>
