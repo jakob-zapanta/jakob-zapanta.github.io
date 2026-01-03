@@ -79,7 +79,7 @@ The handplates were a bit simpler to make, as each plate only required the four 
 
 ### Finger scales
 
-Initially, we planned to use a waterjet to cut these out, as there were quite a lot of them and they were all the same shape. However, the waterjet was out of order when we intended to do that, so we pivoted to cutting out all of the scales by hand using the sheet metal shears, and punching out holes for the rivets with a metal punch.
+Initially, we planned to use a waterjet to cut these out, as there were quite a lot of them and they were all the same shape. However, the waterjet was out of order when we intended to do that, so we pivoted to cutting out all of the scales by hand using the sheet metal shears, and punching out holes for the rivets with a metal punch. We also bent each scale around a metal pipe, so that they could curve around the wearer's fingers.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -108,7 +108,7 @@ Finally, we wanted to create a vambrace (forearm armor) using a large sheet of a
     </div>
 </div>
 <div class="caption">
-    Replaced by a newer sign and once destined for the trash, this sign from our engineering building has found a new life in our gauntlet.
+    Once destined for the trash, this old sign from our engineering building has found a new life in our gauntlet.
 </div>
 
 
@@ -130,6 +130,9 @@ With all of our pieces created, we assembled them onto the glove, beginning with
 
 ## Final Assembly
 
+To assembly everything together, the stripes of scalres were first sewn onto the glove fingers. Next, we took the knuckle and handplate assembly and riveted it directly to the glove, using the two holes we punched at the top of the knuckle piece. We also riveted the special thumb piece to the glove. Finally, we drilled holes in the four corners of the vambrace, and used the holes at the wrist-side of it to attach it to the bottommost hand plate using screws, nuts, and washers. This not only gave it slightly more freedom to move as compared to the rivets used for the rest of the gauntlet, it also made it so that the vambrace is detachable if the user would prefer to wear just the main gauntlet. Finally, we riveted two thin strips of leather to the two holes in the vambrace by the elbow, to act as a strap to hold the armor in place on the arm.
+
+Final Product:
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" space-between=30 Slides-per-view-auto="true" Grab-cursor="true" zoomable="true">
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/final_gauntlet.JPG" class="img-fluid rounded zoomable z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/gauntlet_underside.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
