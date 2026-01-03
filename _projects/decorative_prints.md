@@ -46,7 +46,7 @@ I also modeled and 3D printed a nightwing, a dragon from the book series Wings o
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3DPrints/nightwing_reference.png" title="nightwing reference" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/3DPrints/Nightwing_reference.png" title="nightwing reference" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/3DPrints/night_wing_print.JPG" title="nightwing print" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -61,6 +61,6 @@ This one was also modeled in Blender, and it was a lot harder to model and print
 
 
 <img-comparison-slider>
-  {% include figure.liquid path="assets/img/3DPrints/nightwing_reference.png" class="img-fluid rounded z-depth-1" slot="first" %}
+  {% include figure.liquid path="assets/img/3DPrints/Nightwing_reference.png" class="img-fluid rounded z-depth-1" slot="first" %}
   {% include figure.liquid path="assets/img/3DPrints/night_wing_print.JPG" class="img-fluid rounded z-depth-1" slot="second" %}
 </img-comparison-slider>
