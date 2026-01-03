@@ -409,12 +409,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-assessing-the-correlation-between-stellar-flares-and-spots",
+          section: "News",},{id: "projects-assessing-the-correlation-between-stellar-flares-and-spots",
           title: 'Assessing the correlation between stellar flares and spots',
           description: "Astrophysics Data Analysis-- python; juypter notebook",
           section: "Projects",handler: () => {
