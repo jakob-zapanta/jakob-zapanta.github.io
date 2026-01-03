@@ -22,6 +22,10 @@ This project's acronym, short for *"Metal And Textile Exoskeletal Reinforcement 
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/gauntlet/final_gauntlet.jpg" title="final assembly" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/video/video2.mp4" title="gauntlet_video" class="img-fluid rounded z-depth-1" %}
+    </div>
+
     <div class="caption">
         Final assembly of the gauntlet.
     </div>
@@ -117,7 +121,7 @@ With all of our pieces created, we assembled them onto the glove, beginning with
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/gauntlet/subassemblies2.jpeg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/subassemblies2.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/gauntlet/subassemblies.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -130,35 +134,15 @@ With all of our pieces created, we assembled them onto the glove, beginning with
 
 ## Final Assembly
 
-To assembly everything together, the stripes of scalres were first sewn onto the glove fingers. Next, we took the knuckle and handplate assembly and riveted it directly to the glove, using the two holes we punched at the top of the knuckle piece. We also riveted the special thumb piece to the glove. Finally, we drilled holes in the four corners of the vambrace, and used the holes at the wrist-side of it to attach it to the bottommost hand plate using screws, nuts, and washers. This not only gave it slightly more freedom to move as compared to the rivets used for the rest of the gauntlet, it also made it so that the vambrace is detachable if the user would prefer to wear just the main gauntlet. Finally, we riveted two thin strips of leather to the two holes in the vambrace by the elbow, to act as a strap to hold the armor in place on the arm.
+To assembly everything together, the stripes of scalres were first sewn onto the glove fingers. Next, we took the knuckle and handplate assembly and riveted it directly to the glove, using the two holes we punched at the top of the knuckle piece. We also riveted the special thumb piece to the glove. Finally, we drilled holes in the four corners of the vambrace, and used the holes at the wrist-side of it to attach it to the bottommost hand plate using screws, nuts, and washers. This not only gave it slightly more freedom to move as compared to the rivets used for the rest of the gauntlet, it also made it so that the vambrace is detachable if the user would prefer to wear just the main gauntlet. Finally, we riveted two thin strips of leather to the two holes in the vambrace by the elbow, to act as a strap to hold the armor in place on the arm. And with that, our gauntlet was complete!
 
-Final Product:
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true" space-between=30 Slides-per-view-auto="true" Grab-cursor="true" zoomable="true">
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/final_gauntlet.JPG" class="img-fluid rounded zoomable z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/gauntlet_underside.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/gauntlet-fist.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/gauntlet-open.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>
-    <video muted controls>
-        {% include figure.liquid path="assets/video/video2.mp4" title="example image" class="img-fluid rounded z-depth-1" %}
-    </video>
-  </swiper-slide>
+  <swiper-slide>{% include figure.liquid path="assets/video/video3.mp4" title="gauntlet_video" class="img-fluid rounded z-depth-1" %}</swiper-slide>
 </swiper-container>
-
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/video/video2.mp4" title="gauntlet_video" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
 <hr>
 
@@ -183,13 +167,19 @@ The first major one came from the design of the knuckle plate. We needed a bend 
 
 <br>
 
-The second major issue we ran into was that the waterjet in the machine shop broke on the day we were intending to cut out all of our finger scales. Because we had a tight deadline for this project, and we did not know when the waterjet would be operational again, we decided to pivot to cutting our finger scales out by hand, using good old sharpie and metal shears.
+The second major issue we ran into was that the waterjet in the machine shop broke on the day we were intending to cut out all of our finger scales. Because we had a tight deadline for this project, and we did not know when the waterjet would be operational again, we decided to pivot to cutting our finger scales out by hand, using good old sharpie and metal shears. 
+
+
+There had also been a plan to waterjet the knucklepiece because it had a few axtra edges due to the spikes. However, the waterjet was in use when we had wanted to make *that* piece, so we pivoted to cutting that out by hand as well. All these deviations from the plan resulted in our manufacturing methods not quite matching our inital plans...
 
 <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/gauntlet/assembly_line.JPG" title="assembly line" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="caption">
-        The impromptu assembly line, formed by the sudden need to cut out ~50 metal scales.
+    <div class="col-sm-5 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gauntlet/no_waterjet.PNG" title="texts" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    The impromptu assembly line, formed by the sudden need to cut out ~50 metal scales, and an observation about our final product
 </div>
