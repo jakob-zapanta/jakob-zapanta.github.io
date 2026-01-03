@@ -139,7 +139,7 @@ Final Product:
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/gauntlet-fist.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/gauntlet/gauntlet-open.jpeg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>
-    <video muted autoplay controls>
+    <video muted controls>
         {% include figure.liquid path="assets/video/video2.mp4" title="example image" class="img-fluid rounded z-depth-1" %}
     </video>
   </swiper-slide>
@@ -153,7 +153,7 @@ You describe how you toiled, sweated, _bled_ for your project, and then... you r
         {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/video/video2.mp4" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/video/video2.mp4" title="gauntlet_video" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
