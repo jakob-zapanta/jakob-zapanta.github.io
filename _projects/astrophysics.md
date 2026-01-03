@@ -6,6 +6,8 @@ img: assets/img/Figure 30.png
 importance: 4
 category: coursework
 related_publications: true
+toc:
+  beginning: true
 ---
 
 ## Background information and research question
@@ -32,7 +34,7 @@ Each star that TESS images has a TIC (TESS input catalog) number. The study by P
 
 > The spot modulation flux tells us how far from average the star's brigthness is, due to *spots*. This means that the measurement ignores when the brigthness deviates from the average due to eclipses, flares, or instrumental trends.
 
-**Geting spot modulation:**
+**Geting spot modulation: For each of the 56 stars with spots and flares:**
 
 - [x]  Locate, characterize, and detrend any instrumental trends using WOTAN package
 - [x]  Normalize this partially-detrended lightcurve
@@ -47,16 +49,26 @@ Each star that TESS images has a TIC (TESS input catalog) number. The study by P
 
 The heart of the data analyis was conducted using a resampling technique called bootstrapping, a core topic of the course and one that was utilized and detailed in a paper published by my professor, {% cite MartinDraconis2024 %} to analyze the effects of spots on flares in a more in depth study of a single star system.
 
+
+**For each of the 56 stars:**
 - [x] Count number of flares occuring at times where curve fit of spot modulation flux is positive
 - [x] Randomly resample a number of points on the spot modulation curve fit equal to number of flares in sample
 - [x] Count number of "flares" (resampled points) occuring at times where curve fit of spot modulation flux is positive 
 - [x] Repeat prior step 10,00 times
-- [x] Histogram positive counts from 10,000 resamples, compare to positive count from actual sample
-
-
+- [x] Histogram positive counts from 10,000 resamples, compare to positive count from actual lightcurve
+<hr>
+**For each of the 10,000 resamples:**
+- [x] Count number of "flares" (resampled points) occuring at positive spot modulation flux of all 56 stars 
+<hr>
+- [x] Histogram positive counts from 10,000 resamples of all 56 stars, compare to positive count from actual sample
 
 
 ## Results:
+
+By performing a one-tailed T-test on this data, we get **a p-value of 0.174.**
+What this means is that, if there is no correlation between spots and the occurence of flares, there is a 17.4% chance that this many (or more) flares would randomly occur at times of positive spot modulation.
+
+>"if there is no correlation between spots and the occurence of flares, there is a 17.4% chance that this many (or more) flares would randomly occur at times of positive spot modulation."
 
 maybe for some stars there is a really strong correlation, and for others there just isn't. one of the sacrfiaces I made with combining analysis across all the stars is that you lose out on the individual differences between each star.
 
