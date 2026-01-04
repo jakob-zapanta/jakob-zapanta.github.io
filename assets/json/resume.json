@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jakob Zapanta",
-    "label": "MechE Student",
+    "label": "Mechanical Engineering Student",
     "image": "",
     "email": "jakob.zapanta@tufts.edu",
     "phone": "(203) 583-2349",
@@ -55,15 +55,24 @@
   ],
   "skills": [
     {
-      "name": "Computing and Software",
+      "name": "Computing",
       "level": "Master",
-      "icon": "fa-solid fa-computer",
+      "icon": "fa-solid fa-laptop-code",
       "keywords": [
         "Python",
         "Markdown",
-        "Jupyter Notebook",
-        "LaTeX",
-        "Solidworks Design & FEA"
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "Master",
+      "icon": "fa-solid fa-computer",
+      "keywords": [
+        "Jupyter Notebooks",
+        "Solidworks Design & FEA",
+        "Blender",
+        "3D Printing"
       ]
     }
   ],
@@ -94,8 +103,8 @@
       "name": "Astrophysics",
       "icon": "fa-solid fa-star",
       "keywords": [
-        "Exoplanet Detection",
         "Stellar Behavior",
+        "Exoplanet Detection",
         "Observational Astronomy"
       ]
     }
