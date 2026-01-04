@@ -2,7 +2,7 @@
 layout: page
 title: Truss analysis
 description: Design, analysis and construction of a statically determinate truss
-img: assets/img/truss_analysis.png
+img: assets/img/truss/truss_analysis.png
 importance: 2
 category: coursework
 toc:
