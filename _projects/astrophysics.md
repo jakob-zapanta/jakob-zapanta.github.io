@@ -10,25 +10,39 @@ toc:
   beginning: true
 ---
 
+## Summary
+
+Using techniques learned in class and detailed in a paper by our professor, I conducted an analysis of a sample of ~200 binary star systems listed in Petrucci et al. By parsing their data set to find stars that exhibited characteristics of both stellar flares and spots, and downloading and detrending the corresponding lightcurves, I had data for which I could then fit curves to model spot modulation. Then, using Bayesian statistical techniques, I analyzed the correlation between the presence of star spots and the presence of stellar flares (found by Petrucci) in this sample of stars, finding a p-value of 17.4
+
+<hr>
+
 ## Background information and research question
 This project was my final assignment for an astrophysics coding lab class that I took in the Spring 2025 semester, taught by Professor David Martin.
-The project was very open ended, with the assignment being to conduct data analysis using lightcurves from NASA's Transiting Exoplanet Survey Satellite (TESS).
+The project was very open ended, with the assignment being to conduct data analysis using lightcurves from NASA's Transiting Exoplanet Survey Satellite (TESS). 
 
-To help us get started with this assignment, we were directed to a few publications that had done some work on categorizing some of the stars imaged by TESS. One of them, {% cite petrucci2023TESS %}, characterized a little over 200 stars, focusing on ultra-cool dwarfs of spectral type M4-L4.
+
+TESS images the almost all of the night sky. To get data for an individual star, a target pixel file is used to mask the pixels in the images that corrsepond to a specific star. Then, the change in brightness of that collection of pixels can be plotted over time. This plot is called a lightcurve, and is how data collected by TESS is analyzed.
+
+To help us get started with this assignment, we were directed to a few publications that had done work categorizing some of the stars imaged by TESS. One of them, {% cite petrucci2023TESS %}, characterized 208 ultra-cool dwarfs of spectral type M4-L4.
 
 I decided to do work to answer the following research question: out of the stars in the Petrucci paper that they observed to exhibit flare and have spots, is there a correlation between the spots and the occurence of flares? Stars tend to rotate about their axes. If that axis of rotation is oriented in a such a way that parts of a star's surface will come in and out of view, we might be able to observe the brightness of that star changing periodically, which would indicate the existance of star spots on the star's surface, affecting its brightness. So, my research question could be rephrased as, 
 > "Are we more or less likely to see flares on a star when that star's spots are visible, or is there no correlation?"
 
-
+<hr>
 
 
 ## Research plan / Methodology:
+
+#### Packages used:
+
+numpy , matplotlib.pyplot , scipy.stats , pandas , lightkurve , wotan , astropy.timeseries
+
 
 #### Gathering Data:
 - [x]  Identify all TICs in the petrucci sample with both spots and flares
 - [x]  Download all lightcurves (120 second cadence only) associated with those TICs
 
-Each star that TESS images has a TIC (TESS input catalog) number. The study by Petrucci et al. already catalogued whether the stars in their sample exhibited a number of traits, including whether they flares and/or spots. From that, it was a simple measure of indexing which stars had 
+Each star that TESS images has a TIC (TESS input catalog) number. The study by Petrucci et al. already catalogued whether the 208 stars in their sample exhibited a number of traits, including whether they flares and/or spots. From that, it was a simple measure of indexing which stars were observed to have both flares and spots, and using those stars' TIC IDs to downlod their lightcurves.
 
 #### Spot detection:
 
@@ -62,6 +76,7 @@ The heart of the data analyis was conducted using a resampling technique called 
 <hr>
 - [x] Histogram positive counts from 10,000 resamples of all 56 stars, compare to positive count from actual sample
 
+<hr>
 
 ## Results:
 
@@ -70,8 +85,12 @@ What this means is that, if there is no correlation between spots and the occure
 
 >"if there is no correlation between spots and the occurence of flares, there is a 17.4% chance that this many (or more) flares would randomly occur at times of positive spot modulation."
 
-maybe for some stars there is a really strong correlation, and for others there just isn't. one of the sacrfiaces I made with combining analysis across all the stars is that you lose out on the individual differences between each star.
+There are a number of ways to interperet this result. 17.4% is definetely not the most likely of odds to occur at random, but at the same time, it's also not crazy to think that something this unlikely could occur naturally, especially in a sample of only 56 stars. 
 
+There is also the possibilty that for some stars, there *is* a really strong correlation between positive spot modulation and flares, while on other stars this correlation does not exist at all or is perhaps even the opposite of the general trend: a correlation between *negative* spot modulation and flares.
+Unfortunately, one of the sacrfiaces I made by combining my bootstrapping analysis across all the stars in this sample was the loss of trends happening on individual stars for the sake of understanding the whole.
+
+<hr>
 
 ## Slides from my academic-style talk:
 <style>
@@ -79,42 +98,6 @@ maybe for some stars there is a really strong correlation, and for others there 
 </style>
 <div class="responsive-wrap">
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5DcZi90fYTfQG1_hbKpJ2bf7fr_Cx9vpJKO_TsLAk5hxIf0_BhbRA8cqMCPaNzM1XlWtmEgqWktPn/pubembed?start=false&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</div>
-
-
-
-
-
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-
-
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
 
