@@ -66,7 +66,7 @@ We also drilled relief holes in the "box's" corners to make those corners nicer.
 
 
 ### Handplates
-The handplates were a bit simpler to make, as each plate only required the four ridges along the hand. However, these ridges needed to line up along the plates, so we had to be very precise when doing our bending. We used dykem for these too, and we taped them together, overlapping them the way we wwanted them to overlap in the final assembly, and traced out the lines for the bends needed to make the ridges.
+The handplates were a bit simpler to make, as each plate only required the four ridges along the hand. However, these ridges needed to line up along the plates, so we had to be very precise when doing our bending. We used dykem for these too, and we taped them together, overlapping them the way we wanted them to overlap in the final assembly, and traced out the lines for the bends needed to make the ridges.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
