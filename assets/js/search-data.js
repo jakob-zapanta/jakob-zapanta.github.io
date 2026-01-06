@@ -60,11 +60,6 @@ ninja.data = [{
           description: "Design, analysis and construction of a statically determinate truss",
           section: "Projects",handler: () => {
               window.location.href = "/projects/truss_analysis/";
-            },},{id: "projects-astro-code",
-          title: 'Astro_code',
-          description: "",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/Astro_code/";
             },},{
         id: 'social-email',
         title: 'email',
