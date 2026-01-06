@@ -31,20 +31,20 @@ I decided to do work to answer the following research question: out of the stars
 <hr>
 
 
-## Methodology:
+## Methodology
 
-#### Packages used:
+#### Packages used
 
 numpy , matplotlib.pyplot , scipy.stats , pandas , lightkurve , wotan , astropy.timeseries
 
 
-#### Gathering Data:
+#### Gathering Data
 - [x]  Identify all TICs in the petrucci sample with both spots and flares
 - [x]  Download all lightcurves (120 second cadence only) associated with those TICs
 
 Each star that TESS images has a TIC (TESS input catalog) number. The study by Petrucci et al. already catalogued whether the 208 stars in their sample exhibited a number of traits, including whether they flares and/or spots. From that, it was a simple measure of indexing which stars were observed to have both flares and spots, and using those stars' TIC IDs to downlod their lightcurves.
 
-#### Spot detection:
+#### Spot detection
 
 > The spot modulation flux tells us how far from average the star's brigthness is, due to *spots*. This means that the measurement ignores when the brigthness deviates from the average due to eclipses, flares, or instrumental trends.
 
@@ -169,7 +169,7 @@ Results of this varied greatly across stars, and some stars only had one or two 
 
 <hr>
 
-## Results:
+## Results
 
 By performing a one-tailed T-test on this data, we get **a p-value of 0.174.**
 What this means is that, if there is no correlation between spots and the occurence of flares, there is a 17.4% chance that this many (or more) flares would randomly occur at times of positive spot modulation.
@@ -183,7 +183,7 @@ Unfortunately, one of the sacrfiaces I made by combining my bootstrapping analys
 
 <hr>
 
-## Slides from my academic-style talk:
+# Slides from my academic-style talk:
 <style>
 .responsive-wrap iframe{ max-width: 100%;}
 </style>
@@ -191,5 +191,4 @@ Unfortunately, one of the sacrfiaces I made by combining my bootstrapping analys
     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5DcZi90fYTfQG1_hbKpJ2bf7fr_Cx9vpJKO_TsLAk5hxIf0_BhbRA8cqMCPaNzM1XlWtmEgqWktPn/pubembed?start=false&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 
-
-<!-- can i do row [column[row, row], column] ?-->
+<hr>
