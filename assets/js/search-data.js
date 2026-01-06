@@ -424,8 +424,8 @@ ninja.data = [{
           description: "and other artsy prints",
           section: "Projects",handler: () => {
               window.location.href = "/projects/decorative_prints/";
-            },},{id: "projects-functional-3d-prints",
-          title: 'Functional 3D Prints',
+            },},{id: "projects-candle-holder",
+          title: 'Candle Holder',
           description: "it&#39;s not a dog, but...",
           section: "Projects",handler: () => {
               window.location.href = "/projects/functional_prints/";
