@@ -5,7 +5,7 @@ description: (short for Metal And Textile Exoskeletal Reinforcement Incorporatin
 img: assets/img/gauntlet/final_gauntlet.jpg
 importance: 1
 category: coursework
-# related_publications: true
+related_blog_posts: false
 images:
   slider: true
 toc:
