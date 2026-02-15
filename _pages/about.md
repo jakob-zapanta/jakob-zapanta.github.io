@@ -26,11 +26,9 @@ latest_posts:
 
 Hello hello! My name is Jakob, and I am a sophomore mechanical engineering student at Tufts University. 
 
-I'm interested in the intersection between science & engineering and the social issues we are facing today. 
+I love to design and build cool projects, and I'm interested in the intersection between science & engineering and the social issues we are facing today. 
 
-
-Additionally, the scientist in me would kill me if I *only* did engineering, so to that end
-I'm also pursuing a minor in astrophysics.
+In addition to my desire to create, I am also an extremely curious person. I love asking questions about how the world works and collecting data to try and find an answer. To that end, I'm also pursuing a minor in astrophysics.
 
 
 Outside of my classes, I'm an active member of the Tufts Robotics Club, in multiple ways: I'm the organization's treasurer, responsible for managing all things budget and spending related. But that doesn't mean I'm not a roboticist too! Last fall, I was on a team <a href="https://jakob-zapanta.github.io/projects/battlebots/">building a 3lb combat robot</a>, and in the spring, we took that bot to compete at the National Havoc Robotics League in Norwalk, CT!
