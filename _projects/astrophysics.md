@@ -3,7 +3,7 @@ layout: page
 title: Assessing the correlation between stellar flares and spots
 description: Astrophysics Data Analysis-- python; juypter notebook
 img: assets/img/Astro/Figure 30.png
-importance: 4
+importance: 2
 category: coursework
 related_publications: true
 toc:
